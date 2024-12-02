@@ -34,7 +34,7 @@
   },
   "hosting": {
     "target": "translate",
-    "public": "dist/sign-translate/browser",
+    "public": "dist/conexus/browser",
     "ignore": [],
     "headers": [
       {

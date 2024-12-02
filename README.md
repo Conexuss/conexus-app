@@ -16,36 +16,36 @@
 <p align="center">
   <a href="https://github.com/sign/.github/blob/main/CONTRIBUTING.md">Contribution Guidelines</a>
   ·
-  <a href="https://github.com/sign/translate/issues">Submit an Issue</a>
+  <a href="https://github.com/conexus/issues">Submit an Issue</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/sign/translate/actions/workflows/client.yml">
-    <img src="https://github.com/sign/translate/actions/workflows/client.yml/badge.svg" alt="Client Build Test Status Badge" />
+  <a href="https://github.com/conexus/actions/workflows/client.yml">
+    <img src="https://github.com/conexus/actions/workflows/client.yml/badge.svg" alt="Client Build Test Status Badge" />
   </a>
-  <a href="https://github.com/sign/translate/actions/workflows/server.yml">
-    <img src="https://github.com/sign/translate/actions/workflows/server.yml/badge.svg" alt="Server Build Test Status Badge" />
+  <a href="https://github.com/conexus/actions/workflows/server.yml">
+    <img src="https://github.com/conexus/actions/workflows/server.yml/badge.svg" alt="Server Build Test Status Badge" />
   </a>
-  <a href="https://coveralls.io/github/sign/translate?branch=master">
-    <img src="https://coveralls.io/repos/github/sign/translate/badge.svg?branch=master" alt="Coverage Status Badge" />
+  <a href="https://coveralls.io/github/conexus?branch=master">
+    <img src="https://coveralls.io/repos/github/conexus/badge.svg?branch=master" alt="Coverage Status Badge" />
   </a>
-  <a href="https://github.com/sign/translate/blob/master/LICENSE.md">
+  <a href="https://github.com/conexus/blob/master/LICENSE.md">
     <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0 Badge" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/sign/translate/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/sign/translate" alt="GitHub Stars for sign/translate" />
+  <a href="https://github.com/conexus/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/conexus" alt="GitHub Stars for conexus" />
   </a>
-  <a href="https://github.com/sign/translate/network/members" target="_blank">
-    <img src="https://img.shields.io/github/forks/sign/translate" alt="GitHub Forks for sign/translate" />
+  <a href="https://github.com/conexus/network/members" target="_blank">
+    <img src="https://img.shields.io/github/forks/conexus" alt="GitHub Forks for conexus" />
   </a>
-  <a href="https://github.com/sign/translate/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/contributors/sign/translate" alt="GitHub Contributors for sign/translate" />
+  <a href="https://github.com/conexus/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/contributors/conexus" alt="GitHub Contributors for conexus" />
   </a>
-  <a href="https://github.com/sign/translate/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/sign/translate" alt="GitHub Issues for sign/translate" />
+  <a href="https://github.com/conexus/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/conexus" alt="GitHub Issues for conexus" />
   </a>
 </p>
 
@@ -59,7 +59,7 @@
 
 ## Key Features
 
-### [Sign Language Production](https://github.com/sign/translate/wiki/Spoken-to-Signed)
+### [Sign Language Production](https://github.com/conexus/wiki/Spoken-to-Signed)
 
 ```
 ┌─────────────────────┐
@@ -77,7 +77,7 @@
 └───────────────────────┘
 ```
 
-### [Sign Language Translation](https://github.com/sign/translate/wiki/Signed-to-Spoken)
+### [Sign Language Translation](https://github.com/conexus/wiki/Signed-to-Spoken)
 
 ```
 ┌──────────────────────────┐                                ┌────────────────────┐
@@ -101,15 +101,15 @@ shape the project's future,
 and delve deeper into our vision and plans in the [Wiki][wiki].
 
 Wish to report a bug, contribute some code, or enhance documentation? Fantastic!
-Check our guidelines for [contributing][contributing] and then explore our issues marked as <kbd>[help wanted](https://github.com/sign/translate/labels/help%20wanted)</kbd> or <kbd>[good first issue](https://github.com/sign/translate/labels/good%20first%20issue)</kbd>.
+Check our guidelines for [contributing][contributing] and then explore our issues marked as <kbd>[help wanted](https://github.com/conexus/labels/help%20wanted)</kbd> or <kbd>[good first issue](https://github.com/conexus/labels/good%20first%20issue)</kbd>.
 
 **Find this useful? Give our repo a star :star: :arrow_up:.**
 
-[![Stargazers repo roster for @sign/translate](https://reporoster.com/stars/sign/translate)](https://github.com/sign/translate/stargazers)
+[![Stargazers repo roster for @conexus](https://reporoster.com/stars/conexus)](https://github.com/conexus/stargazers)
 
-[wiki]: https://github.com/sign/translate/wiki/Spoken-to-Signed
+[wiki]: https://github.com/conexus/wiki/Spoken-to-Signed
 [contributing]: https://github.com/sign/.github/blob/main/CONTRIBUTING.md
-[project-board]: https://github.com/sign/translate/projects/1
+[project-board]: https://github.com/conexus/projects/1
 
 ## Development
 

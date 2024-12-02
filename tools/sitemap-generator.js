@@ -42,7 +42,7 @@ for (const url of additionalUrls) {
 // writes sitemaps and index out to the destination you provide.
 simpleSitemapAndIndex({
   hostname: 'https://sign.mt',
-  destinationDir: `${baseDir}dist/sign-translate/browser/`,
+  destinationDir: `${baseDir}dist/conexus/browser/`,
   sourceData,
   gzip: false,
 })

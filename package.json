@@ -1,5 +1,5 @@
 {
-  "name": "@sign/translate",
+  "name": "@conexus",
   "version": "0.0.3",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "start": "ng serve --host 0.0.0.0 --disable-host-check",
     "build": "ng build --configuration=production --base-href=/",
     "build:stats": "ng build --stats-json",
-    "analyze": "webpack-bundle-analyzer dist/sign-translate/browser/stats.json",
+    "analyze": "webpack-bundle-analyzer dist/conexus/browser/stats.json",
     "pwa:assets": "pwa-asset-generator src/assets/icons/dark-logo.svg src/assets/icons/generated/ -i src/index.html -m src/manifest.webmanifest --background white --favicon --mstile && pwa-asset-generator src/assets/icons/light-logo.svg --dark-mode src/assets/icons/generated/ -i src/index.html --background black --splash-only",
     "capacitor:assets": "capacitor-assets generate --verbose --ios --android --assetPath src/assets/icons --iconBackgroundColor=white --iconBackgroundColorDark=black --splashBackgroundColor=white --splashBackgroundColorDark=black --logoSplashTargetWidth=768",
     "test": "ng test --code-coverage",
@@ -19,14 +19,14 @@
     "mobile:metadata": "tsx tools/mobile/metadata/metadata.ts",
     "prepare:husky": "node -e \"require('fs').cpSync('node_modules/@sign-mt/configuration/.husky/', '.husky/', {recursive: true})\"",
     "prepare": "husky install && npm run prepare:husky",
-    "dev:ssr": "ng run sign-translate:serve-ssr",
-    "serve:ssr": "node dist/sign-translate/server/main.js",
-    "build:ssr": "ng build && ng run sign-translate:server",
-    "prerender": "NODE_OPTIONS=--max_old_space_size=16384  ng run sign-translate:prerender:production",
+    "dev:ssr": "ng run conexus:serve-ssr",
+    "serve:ssr": "node dist/conexus/server/main.js",
+    "build:ssr": "ng build && ng run conexus:server",
+    "prerender": "NODE_OPTIONS=--max_old_space_size=16384  ng run conexus:prerender:production",
     "test:workflow": "act --container-architecture linux/amd64 --artifact-server-path /tmp/artifacts -W .github/workflows/client.yml",
     "generate:terms": "marked -i LICENSE.md -o src/app/pages/landing/terms/terms.component.html",
     "generate:sitemap": "node tools/sitemap-generator.js",
-    "generate:licenses": "npm-license-crawler --json dist/sign-translate/browser/licenses.json --onlyDirectDependencies --exclude ios --exclude android --exclude dist --exclude functions",
+    "generate:licenses": "npm-license-crawler --json dist/conexus/browser/licenses.json --onlyDirectDependencies --exclude ios --exclude android --exclude dist --exclude functions",
     "build:full": "npm run generate:terms && npm run prerender && npm run generate:sitemap && npm run generate:licenses"
   },
   "engines": {

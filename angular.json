@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sign-translate": {
+    "conexus": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sign-translate/browser",
+            "outputPath": "dist/conexus/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -137,21 +137,21 @@
               "Cross-Origin-Opener-Policy": "same-origin",
               "Cross-Origin-Embedder-Policy": "require-corp"
             },
-            "buildTarget": "sign-translate:build"
+            "buildTarget": "conexus:build"
           },
           "configurations": {
             "production": {
-              "buildTarget": "sign-translate:build:production"
+              "buildTarget": "conexus:build:production"
             },
             "development": {
-              "buildTarget": "sign-translate:build:development"
+              "buildTarget": "conexus:build:development"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "sign-translate:build"
+            "buildTarget": "conexus:build"
           }
         },
         "test": {
@@ -230,7 +230,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/sign-translate/server",
+            "outputPath": "dist/conexus/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "optimization": false,
@@ -260,12 +260,12 @@
           "builder": "@angular-devkit/build-angular:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "sign-translate:build",
-              "serverTarget": "sign-translate:server"
+              "browserTarget": "conexus:build",
+              "serverTarget": "conexus:server"
             },
             "production": {
-              "browserTarget": "sign-translate:build:production",
-              "serverTarget": "sign-translate:server:production"
+              "browserTarget": "conexus:build:production",
+              "serverTarget": "conexus:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -278,12 +278,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "sign-translate:build:production",
-              "serverTarget": "sign-translate:server:production"
+              "browserTarget": "conexus:build:production",
+              "serverTarget": "conexus:server:production"
             },
             "development": {
-              "browserTarget": "sign-translate:build",
-              "serverTarget": "sign-translate:server"
+              "browserTarget": "conexus:build",
+              "serverTarget": "conexus:server"
             }
           },
           "defaultConfiguration": "production"

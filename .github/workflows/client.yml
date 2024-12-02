@@ -59,17 +59,17 @@ jobs:
         run: bun run generate:licenses
 
       - name: Move .well-known to root
-        working-directory: dist/sign-translate/browser/
+        working-directory: dist/conexus/browser/
         run: mv assets/.well-known .well-known
 
       - name: Zip dist
-        run: zip -r dist/sign-translate/browser.zip dist/sign-translate/browser/
+        run: zip -r dist/conexus/browser.zip dist/conexus/browser/
 
       - name: Archive dist
         uses: actions/upload-artifact@v4
         with:
           name: build-dist
-          path: dist/sign-translate/browser.zip
+          path: dist/conexus/browser.zip
           retention-days: 1
 
   lighthouse:
@@ -89,7 +89,7 @@ jobs:
         run: unzip browser.zip
 
       - name: Remove original html file from before prerendering
-        run: rm -f dist/sign-translate/browser/index.original.html || true
+        run: rm -f dist/conexus/browser/index.original.html || true
 
       - name: Run Lighthouse against a static dist dir
         uses: treosh/lighthouse-ci-action@v9

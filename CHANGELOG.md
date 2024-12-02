@@ -1,6 +1,6 @@
 # Changelog
 
-This file is used to list important changes made over time to `sign/translate`.
+This file is used to list important changes made over time to `conexus`.
 
 ## Unreleased
 

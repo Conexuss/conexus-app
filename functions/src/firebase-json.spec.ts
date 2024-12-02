@@ -9,7 +9,7 @@ describe('firebase.json', () => {
     fileContent = readFileSync(filePath, 'utf8');
   });
 
-  // Prevent mistakes like - https://github.com/sign/translate/commit/ad0ef31a0a2b3cd989dff6a9dcec742157d9619d
+  // Prevent mistakes like - https://github.com/conexus/commit/ad0ef31a0a2b3cd989dff6a9dcec742157d9619d
   it('firebase.json should be a valid JSON file', async () => {
     expect(JSON.parse(fileContent)).toBeTruthy();
   });
@@ -39,7 +39,7 @@ describe('firebase.json', () => {
   });
 
   it('firebase.json should not redirect assets to the index.html', async () => {
-    // Fixed in https://github.com/sign/translate/commit/730546444bf1a35c2097230b1562783ae0dfda2a
+    // Fixed in https://github.com/conexus/commit/730546444bf1a35c2097230b1562783ae0dfda2a
     // If even a single i18n asset is redirected instead of 404 error, Transloco reverts everything to English
     expect(resolveRewrite('/assets/random-path')).toEqual('/assets/random-path');
   });
