@@ -10,7 +10,7 @@
     "shift": "Shift"
   },
   "translate": {
-    "title": "Sign Translate",
+    "title": "Conexus",
     "language-selector": {
       "detected": "{{lang}} - An gano",
       "detect": "Tsinkayo harshe",
@@ -82,7 +82,7 @@
         },
         "open-source": {
           "title": "Buɗe Source Project",
-          "subtitle": "Sign Translate shiri ne na buɗe ido, yana bawa al'umma damar ba da gudummawa da haɓaka abubuwanta.",
+          "subtitle": "Conexus shiri ne na buɗe ido, yana bawa al'umma damar ba da gudummawa da haɓaka abubuwanta.",
           "description": "Ta hanyar raba lambar tushe, muna nufin haɓaka haɗin gwiwa da bayyana gaskiya. "
         },
         "offline": {

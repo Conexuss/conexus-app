@@ -10,7 +10,7 @@
     "shift": "Maius"
   },
   "translate": {
-    "title": "Sign Translate",
+    "title": "Conexus",
     "language-selector": {
       "detected": "{{lang}} - Detektatua",
       "detect": "Hauteman hizkuntza",
@@ -82,7 +82,7 @@
         },
         "open-source": {
           "title": "Kode irekiko proiektua",
-          "subtitle": "Sign Translate kode irekiko proiektu bat da, komunitateari bere ezaugarriak lagundu eta hobetzeko aukera ematen diona.",
+          "subtitle": "Conexus kode irekiko proiektu bat da, komunitateari bere ezaugarriak lagundu eta hobetzeko aukera ematen diona.",
           "description": "Gure iturburu-kodea partekatuz, elkarlana eta gardentasuna sustatzea dugu helburu. "
         },
         "offline": {

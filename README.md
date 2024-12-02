@@ -1,4 +1,4 @@
-<h1 align="center">👋 Sign Translate</h1>
+<h1 align="center">👋 Conexus</h1>
 
 <p align="center">
   <i>

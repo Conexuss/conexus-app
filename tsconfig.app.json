@@ -9,7 +9,7 @@
       "@types/offscreencanvas",
       "@types/dom-mediacapture-transform",
       "@types/wicg-file-system-access",
-      "@types/long"
+      // "@types/long"
     ]
   },
   "files": ["src/main.ts"],

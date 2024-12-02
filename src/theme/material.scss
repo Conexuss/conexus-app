@@ -6,9 +6,9 @@
 
 $app-accent: mat.m2-define-palette(mat.$m2-pink-palette);
 $app-warn: mat.m2-define-palette(mat.$m2-red-palette);
-$app-typography: mat.m2-define-typography-config(
-  $font-family: 'Roboto,Helvetica Neue,sans-serif',
-);
+// $app-typography: mat.m2-define-typography-config(
+//   $font-family: 'Roboto,Helvetica Neue,sans-serif',
+// );
 
 // Create the theme object (a Sass map containing all of the palettes).
 $app-color: (
